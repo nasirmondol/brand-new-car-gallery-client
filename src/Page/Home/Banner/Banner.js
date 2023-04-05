@@ -6,7 +6,7 @@ import bannerCar3 from '../../../assets/banner car/banner car3.jpg'
 
 const Banner = () => {
     return (
-        <div className='p-3'>
+        <div className=''>
             <div className="carousel w-full">
                 <div id="item1" className="carousel-item w-full">
                     <img src={bannerCar} className="w-full" alt='' />

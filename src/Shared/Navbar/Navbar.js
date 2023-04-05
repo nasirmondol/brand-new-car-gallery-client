@@ -1,13 +1,30 @@
 import React from 'react';
+import { useAuthState, useSignOut } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
+import auth from '../../firebase/firebase.config';
 
 const Navbar = () => {
+    const [user] = useAuthState(auth);
+    const [signOut, loading, error] = useSignOut(auth);
+
+    const logOut = () =>{
+        signOut()
+    }
+
+
     const menuItems = <React.Fragment>
         <li><Link to="/">Home</Link></li>
-        <li><Link to='/about'>Pay</Link></li>
-        <li><Link to='/myorders'>My Orders</Link></li>
-        <li><Link to='/review'>Review</Link></li>
-        <li><Link to='/logout'>Login</Link></li>
+        <li><Link to="/about">About</Link></li>
+        {
+            user?.email ? <>
+                <li><Link to="/explore">Explore</Link></li>
+                <li><Link to='/pay'>Pay</Link></li>
+                <li><Link to='/myorders'>My Orders</Link></li>
+                <li><Link to='/review'>Review</Link></li>
+                <li><Link onClick={() => logOut()}>Sign Out</Link></li>
+            </> :
+                <li><Link to='/login'>Login</Link></li>
+        }
     </React.Fragment>
     return (
         <div className="navbar bg-base-100">
