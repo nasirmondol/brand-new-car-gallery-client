@@ -13,7 +13,7 @@ const Details = () => {
             </div>
             <div className='mb-5'>
                 <h2 className='text-3xl font-bold'>Initial information gathering</h2>
-                <p>Dealers know that just as important as how the dealership looks, is how the dealership works. Ask yourself:
+                <p><strong>Dealers know that just as important as how the dealership looks, is how the dealership works. Ask yourself:</strong>
                     <ul>
                         <li>
                             1. How do my customers and staff use my dealership for day-to-day activities?

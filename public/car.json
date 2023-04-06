@@ -1,69 +1,60 @@
 [
     {
-        "id": 1,
         "name": "MERCEDES-BENZ",
         "price": 600000,
         "description": "Mercedes-Benz is a German luxury car company that produces vehicles known for their opulence and state-of-the-art technology. Many are available as sedans and cabriolets (convertibles), and some Mercedes luxury SUVs, such as the GLC and GLE, are available as coupes",
         "img": "https://imgd.aeplcdn.com/0x0/n/cw/ec/45390/gls-exterior-right-front-three-quarter-2.jpeg"
     },
     {
-        "id": 2,
         "name": "TESLA United States",
         "price": 440000,
         "description": "Tesla Inc (Tesla) is an automotive and energy company. It designs, develops, manufactures, sells, and leases electric vehicles and energy generation and storage systems. The company produces and sells the Model Y, Model 3, Model X, Model S, Cybertruck, Tesla Semi and.",
         "img": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Tesla/Model-X/5253/1611841733029/front-left-side-47.jpg"
     },
     {
-        "id": 3,
         "name": "BMW Germany",
         "price": 650000,
         "description": "OVERVIEW. Bayerische Motoren Werke (Bavarian Motor Works, or BMW) is Europe's top auto exporter. Their motorcycle line also competes globally. BMW is one of the world's best-known manufacturers of high-performance automobiles, and the company's sales continue to climb.",
         "img": "https://w7.pngwing.com/pngs/468/92/png-transparent-blue-bmw-car-2017-bmw-m2-bmw-2-series-car-bmw-5-series-blue-bmw-m2-coupe-car-compact-car-sedan-performance-car-thumbnail.png"
     },
     {
-        "id": 4,
         "name": "JAGUAR",
         "price": 405900,
         "description": "Jaguar (UK: /ˈdʒæɡjuər/, US: /ˈdʒæɡwɑːr/) is the luxury vehicle brand of Jaguar Land Rover,[1][3] a British multinational car manufacturer with its headquarters in Whitley, Coventry, England. Jaguar Cars was the company that was responsible for the production of Jaguar.",
         "img": "https://www.izmostock.com/wp-content/uploads/2017/07/Jaguar-XJ.jpg"
     },
     {
-        "id": 5,
         "name": "PORSCHE",
         "price": 399600,
         "description": "Porsche is a German luxury and sports car manufacturer, based in Stuttgart and founded in 1931. The company is best known for its powerful, precise-handling sports cars, most famously the iconic 911 responsible for the production in Whitley.",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA2csE-oQoSRLwdkqM6b-m0nh__NvJJXqBM4mO4cOh8A&s"
     },
     {
-        "id": 6,
         "name": "Cadillac",
         "price": 407890,
         "description": "Cadillac is among the first automotive brands in the world, fourth in the United States only to Autocar Company (1897) and fellow GM marques Oldsmobile (1897) and Buick (1899). It was named after Antoine de la Mothe Cadillac (1658–1730), who founded Detroit, Michigan.",
         "img": "https://e7.pngegg.com/pngimages/948/228/png-clipart-2016-cadillac-escalade-2015-cadillac-escalade-car-lincoln-mkt-cadillac-compact-car-glass-thumbnail.png"
     },
     {
-        "id": 7,
         "name": "Land Rover",
         "price": 502600,
         "description": "Land Rover Range Rover (commonly known as Range Rover) is a full-size luxury SUV from Land Rover, a Jaguar Land Rover brand. Range Rover was launched in 1970 by British Leyland. This flagship model is already the fourth generation who founded Detroit, Michigan.",
         "img": "https://www.kindpng.com/picc/m/126-1268670_land-rover-png-photo-range-rover-car-png.png"
     },
     {
-        "id": 8,
         "name": "Lamborghini",
         "price": 650000,
         "description": "Automobili Lamborghini S.p.A. (Italian pronunciation: [autoˈmɔːbili lamborˈɡiːni]) is an Italian manufacturer of luxury sports cars and SUVs based in Sant'Agata Bolognese. The company is owned by the Volkswagen Group through its subsidiary Audi generation who.",
         "img": "https://purepng.com/public/uploads/large/purepng.com-lamborghinilamborghinilamborghini-automobilelamborghini-carssports-car-1701527505166yod4c.png"
     },
     {
-        "id": 9,
         "name": "Lexus",
         "price": 350400,
         "description": "Lexus is the luxury vehicle division of the Japanese automaker Toyota. The Lexus brand is marketed in more than 90 countries and territories worldwide and is Japan's largest-selling make of premium cars. It has ranked among the 10 largest Japanese global.",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPqQnC9O796lCTiCzMw9w5t0mhp9yW7zxbl4lN-Pb3&s"
     },
     {
-        "id": 10,
+
         "name": "Volvo",
         "price": 405500,
         "description": "Volvo Cars (Swedish: Volvo personvagnar, styled VOLVO in the company's logo) is a Swedish multinational manufacturer of luxury vehicles headquartered in Torslanda, Gothenburg. The company manufactures SUVs, station wagons, and sedans largest Japanese.",

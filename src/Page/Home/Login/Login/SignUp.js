@@ -1,5 +1,5 @@
-import React from 'react';
-import { useAuthState, useCreateUserWithEmailAndPassword, useSendEmailVerification, useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import React, { useState } from 'react';
+import { useAuthState, useCreateUserWithEmailAndPassword, useSendEmailVerification, useSignInWithGoogle, useUpdateProfile } from 'react-firebase-hooks/auth';
 import { useForm } from 'react-hook-form';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../../firebase/firebase.config';
@@ -8,11 +8,16 @@ import googleLogo from '../../../../assets/google logo/goolge logo.png'
 
 const SignUp = () => {
     const [user] = useAuthState(auth);
+
+    const [user1, setUser1] = useState(null)
+
     console.log(user)
     const location = useLocation();
     const navigate = useNavigate();
 
     const { register, handleSubmit, formState: { errors } } = useForm();
+    const [updateProfile, updating, error] = useUpdateProfile(auth);
+
 
     const [createUserWithEmailAndPassword] = useCreateUserWithEmailAndPassword(auth);
 
@@ -29,6 +34,10 @@ const SignUp = () => {
         const success = await sendEmailVerification()
         if (success) {
             toast('sent email verification')
+        }
+        const updateName = await updateProfile(auth.currentUser)
+        if(updateName){
+            toast.success('updated the name')
         }
         console.log(data)
     }
